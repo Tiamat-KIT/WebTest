@@ -1,0 +1,26 @@
+{
+    "css.validate": false,
+    "[css]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": true
+        }
+    },
+    "[typescript]": {
+        "editor.formatOnSave": false,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    },
+    "stylelint.configFile": ".stylelintrc",
+    "files.exclude": {
+        "node_modules": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/third-party": true
+    },
+    "typescript.tsdk": "node_modules/typescript/lib"
+}

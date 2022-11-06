@@ -1,0 +1,48 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "standard"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "import"
+  ],
+  "rules": {
+    "no-undef": "off",
+    "no-unused-vars": "off",
+    "n/no-callback-literal": "off",
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin", // node "builtin" のモジュール
+          "external", // npm install したパッケージ
+          "internal", // パス設定したモジュール
+          [
+            "parent",
+            "sibling"
+          ], // 親階層と子階層のファイル
+          "index", // 同階層のファイル
+          "object", // object-imports
+          "type" // 型のみインポート
+        ],
+        "newlines-between": "always", // グループごとに空行を挿入
+        "alphabetize": {
+          "order": "asc" // アルファベット順
+        }
+      }
+    ]
+  }
+}
