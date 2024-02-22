@@ -13,7 +13,18 @@
       "extensions": [
         "EditorConfig.EditorConfig",
         "dbaeumer.vscode-eslint",
-        "stylelint.vscode-stylelint"
+        "stylelint.vscode-stylelint",
+        "ms-vscode.vscode-typescript-next",
+        "pmneo.tsimporter",
+        "vscode-icons-team.vscode-icons",
+        "MS-CEINTL.vscode-language-pack-ja",
+        "esbenp.prettier-vscode",
+        "richie5um2.vscode-sort-json",
+        "vscode-icons-team.vscode-icons",
+        "sdras.night-owl",
+        "streetsidesoftware.code-spell-checker",
+        "dbaeumer.vscode-eslint",
+        "VisualStudioExptTeam.vscodeintellicode"
       ]
     }
   }
