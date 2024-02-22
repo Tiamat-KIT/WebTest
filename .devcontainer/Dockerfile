@@ -13,3 +13,4 @@ RUN apt-get update \
 
 RUN apt-get -y install curl git
 RUN npm install -g npm
+RUN npm install -g track-cli
